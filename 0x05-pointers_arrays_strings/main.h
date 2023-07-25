@@ -1,6 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include "main.h"
+/**
+ * swap_int - swaps the values of two integers
+ * @a: integer to swap
+ * @b: integer to swap
+ */
+void swap_int(int *a, int *b)
+{
+	int swap;
 
-void reset_to_98(int *n);
-
-#endif
+	swap = *a;
+	*a = *b;
+	*b = swap;
+}
+endif
